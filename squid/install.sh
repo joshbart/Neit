@@ -2,3 +2,4 @@
 
 apt-get update
 apt-get -y install squid
+systemctl enable squid
