@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-apt update
-apt -y install openvpn
+apt-get update
+apt-get -y install openvpn
