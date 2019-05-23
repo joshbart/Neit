@@ -1,7 +1,7 @@
 Vagrant.configure("2") do |config|
-  config.vm.box = "ubuntu/bionic64"
+  config.vm.box = "offensive-security/kali-linux"
   # config.vm.provider "virtualbox" do |vb|
   #   vb.gui = true
   # end
-  config.vm.provision "shell", path: "openvpn/install.sh"
+  # config.vm.provision "shell", path: "openvpn/install.sh"
 end
